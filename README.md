@@ -1,1 +1,2 @@
-# Cuda-psd-to-html
+# psd-to-html-cuda
+# psd-to-html-cuda

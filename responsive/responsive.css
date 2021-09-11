@@ -1,0 +1,238 @@
+/* Extra large Desktop  */
+@media only screen and (max-width:1400px){
+   
+    .title h2::after {
+        top: 4rem; 
+    }
+    .team-social ul li{
+        margin: 0 0.4rem;
+    }
+  }
+
+  /* Large Desktop  */
+
+@media only screen and (max-width:1200px){
+    ul.navbar-nav li {
+        margin-right: 0.40rem;
+    }
+    .title h2::after {
+        top: 4rem; 
+    }
+    .team-social ul li a i{
+        font-size: 0.80rem;
+    }
+    ul.navbar-nav li a{
+        padding: 0.4rem 1rem !important;
+    }
+    .team-social ul li{
+        margin: 0 0.2rem;
+    }
+    
+    
+  }
+  
+
+  /* Desktop  */
+  @media only screen and (max-width:991px){
+    ul.navbar-nav {
+        margin-top: 1rem;
+        background: #00000052;
+        border-radius: 0.5rem;
+    }
+    ul.navbar-nav li a {
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+    ul.navbar-nav li:last-child a{
+        border-bottom: none;
+    }
+    a.nav-link.active {
+        background: none;
+    }
+  }
+@media only screen and (max-width:992px){
+    html{
+        font-size: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-right: 0.40rem;
+        margin-bottom: 0.40rem;
+    }
+    .client-img {
+        width: 8rem;
+        float: none;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .client-info {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-info p {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+    .contact-form{
+        width: 90%;
+    }
+    .footer-wrapper ul li a {
+        font-size: 1.2rem;
+    }
+   
+    
+}
+
+/* tablet  */
+@media only screen and (max-width:768px){
+    .card-img {
+        width: 50%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .footer-wrapper ul li a {
+        font-size: 1.2rem;
+    }
+   
+   
+}
+
+/* Tablet  Device*/
+
+@media only screen and (max-width:576px){
+    html{
+        font-size : 13px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .logo {
+        width: 21%;
+    }
+    .title h2::after {
+        top: 3.50rem; 
+    }
+    .team-social ul li a {
+        padding: 0.50rem;
+    }
+    .card-img {
+        width: 50%;
+      
+    }
+    .team-social ul li a i{
+        font-size: 1.5rem;
+    }
+    .team-social ul li{
+        margin: 0 0.2rem;
+    }
+    .portfolio-btns button {
+        padding: 0.4rem 1.2rem;
+        font-size: 1rem;
+    }
+    .portfolio-item p {
+        font-size: 1rem;
+    }
+    .portfolio-link a {
+        padding: 0.6rem 1.2rem;
+        font-size: 1.1rem;
+    }
+    .service-item .col{
+        width: 100%;
+    }
+    .testimonial-body .col{
+        width : 100%;
+    }
+
+    .client-info{
+        width: 85%;
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    .client-info h4 {
+        font-size: 1.8rem;
+    }
+    .client-info span {
+        font-size: 1.3rem;
+    }
+    .contact-form .col{
+        width: 100%;
+    }
+    .contact-form{
+        width: 90%;
+    }
+    .contact-form input.submit-btn {
+        width: 10;      
+        font-size: 1rem;
+    }
+    
+   
+    
+  }
+
+  /* Androil Device  */
+  @media only screen and (max-width:320px){
+    html{
+        font-size : 10px;
+    }
+    .inner-body-wrapper h1 {
+        font-weight: 600;
+    }
+    .portfolio-item .col{
+        width: 100%;
+    }
+    .testimonial-wrapper .col{
+        width : 100%;
+    }
+    .card-details p {
+        font-size: 1.4rem;
+    }
+    .card-title h4 { 
+        font-size: 2.1rem;
+    }
+    .discription {
+        width: 85%;
+    }
+    .discription p {
+        font-size: 1.3rem;
+    }
+    .card-team-text p {
+        font-size: 1.4rem;
+    }
+    .client-info h4{
+        font-size: 2rem;
+    }
+    .contact-form{
+        width: 100%;
+    }
+   
+
+
+
+}
+
+/* Small Android Device  */
+@media only screen and (max-width:265px){
+    .portfolio-btns button {
+        padding: 0.3rem 1.1rem;
+        font-size: 0.8rem;
+    }
+    .title h2 {
+        font-size: 1.7rem;
+    }
+    .contact-form input.submit-btn {   
+        font-size: 1rem;
+    }
+    .footer-wrapper ul li {
+        margin-right: 1rem;
+    }
+    .footer-wrapper ul li a {
+        font-size: 1.1rem;
+    }
+   
+}
+
+
